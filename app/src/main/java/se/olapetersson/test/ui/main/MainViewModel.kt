@@ -11,6 +11,7 @@ import java.nio.ByteBuffer
 
 class MainViewModel : ViewModel() {
 
+    // most of this is from https://stackoverflow.com/questions/35379000/extract-audio-from-mp4-and-save-to-sd-card-mediaextractor
     init {
         "initting in viewmodel".debug()
         val mediaExtractor = MediaExtractor()
